@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'demo'
+  s.name             = 'SourceThree'
   s.version          = '0.1.0'
   s.summary          = 'A short description of demo.'
 
@@ -27,21 +27,9 @@ TODO: Add long description of the pod here.
   s.author           = { 'leonpesdk' => 'leon.dudlik@img.ly' }
   s.source           = { :git => 'https://github.com/leonpesdk/demo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source_files = 'Sources/SourceThree/**/*.{swift}'
 
   s.ios.deployment_target = '10.0'
-
-  s.subspec 'SourceOne' do |ss|
-    ss.dependency 'SourceOne', '~> 0.1.0'
-  end
-
-  s.subspec 'SourceTwo' do |ss|
-    ss.dependency 'SourceTwo', '~> 0.1.0'
-    ss.dependency 'demo/SourceOne'
-  end
-
-  s.subspec 'SourceThree' do |ss|
-    ss.dependency 'SourceThree', '~> 0.1.0'
-  end
 
   # s.resource_bundles = {
   #   'demo' => ['demo/Assets/*.png']

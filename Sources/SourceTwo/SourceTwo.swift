@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import SourceOne
 
 class SourceTwo {
   let source = SourceOne()

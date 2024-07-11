@@ -28,7 +28,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/leonpesdk/demo.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
   s.source_files = 'Sources/SourceTwo/**/*.{swift}'
-  s.dependency 'SourceOne', .s.verstion.to_s
+  s.dependency 'SourceOne', s.verstion.to_s
 
   s.ios.deployment_target = '10.0'
 

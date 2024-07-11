@@ -7,4 +7,8 @@
 
 import Foundation
 
-public class SourceOne {}
+public class SourceOne {
+    public init() {
+        
+    }
+}
